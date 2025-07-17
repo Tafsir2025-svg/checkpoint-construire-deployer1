@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎬 Movie Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Explorer</h1>
+    <button id="theme-toggle">🌙 / ☀️</button>
+  </header>
+
+  <section class="search-bar">
+    <input type="text" id="searchInput" placeholder="Rechercher un film..." />
+    <button onclick="searchMovies()">Rechercher</button>
+  </section>
+
+  <main id="movie-container" class="movie-grid">
+    <!-- Cartes des films ajoutées ici dynamiquement -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
